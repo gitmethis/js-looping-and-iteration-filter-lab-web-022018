@@ -18,5 +18,5 @@ function fuzzyMatch(list, partialName){
 }
 
 function matchName(){
-  
+  re
 }
