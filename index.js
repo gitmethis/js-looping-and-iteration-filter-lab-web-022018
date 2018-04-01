@@ -18,5 +18,5 @@ function fuzzyMatch(list, partialName){
 }
 
 function matchName(drivers, name_to_look_for){
-  return drivers.filter(function()
+  return drivers.filter(function(each)
 }
