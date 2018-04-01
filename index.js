@@ -19,6 +19,6 @@ function fuzzyMatch(list, partialName){
 
 function matchName(drivers, name_to_look_for){
   return drivers.filter(function(each_object_in_drivers){
-     return each_object_in_drivers.nam
+     return each_object_in_drivers.name == name_to_look_for
   });
 }
