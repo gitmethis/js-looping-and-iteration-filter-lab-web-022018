@@ -16,7 +16,11 @@ function fuzzyMatch(the_arr, the_beginning_part){
      new_arr = []
      for (let word of the_arr){
         for (let i = 0;i < the_beginning_part.length; i++){
-             if (word[i] == )
+             if (word[i] === the_beginning_part[i]){
+                continue;
+             }else{
+                 break;
+             }
         }
      }
   })
